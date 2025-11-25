@@ -21,18 +21,22 @@ Manage your payments inside FilamentPHP app with multi payment gateway integrati
 
 ## Features
 
-- [x] Payments List
+- [x] Payments List with Amount & Charges Display
 - [x] Payment View
 - [x] Payment Filter And Groups by Status
+- [x] Currency Conversion Display
+- [x] Payment Status Badges with Icons
 - [x] Payment Gates
+- [x] Payment Gate Management (Reorder, Edit, Configure)
 - [x] Payment Gate Options
+- [x] Currency Configuration (Rates, Charges, Limits)
 - [x] Payment Action
 - [x] Payment Facade Method
 - [x] Payment Page
 - [x] Payment Drivers
 - [x] StripeV3 Integration
 - [x] Plisio Integration
-- [x] Paypal Integration
+- [x] PayPal Integration
 - [x] Paymob Integration
 - [x] Tap Integration
 - [x] Myfatoorah Integration
@@ -40,10 +44,10 @@ Manage your payments inside FilamentPHP app with multi payment gateway integrati
 - [ ] Paddle Integration
 - [ ] Lemon Squeezy Integration
 - [ ] Binance Integration
-- [ ] PayTabs Integration
-- [ ] Moyaser Integration
-- [ ] Payfort Integration
-- [ ] Fawery Integration
+- [x] PayTabs Integration
+- [x] Moyaser Integration
+- [x] Payfort Integration
+- [x] Fawery Integration
 
 ## Installation
 
@@ -109,8 +113,7 @@ return redirect()->to(
                         ->city('Cairo')
                         ->state('Cairo')
                         ->postcode('12345')
-                        ->country('EG'
-                        )
+                        ->country('EG')
                 )),
     );
 ```
@@ -124,7 +127,7 @@ you can use a Table Action to make it easy to link Payment with your table like 
 ```php
 use TomatoPHP\FilamentPayments\Filament\Actions\PaymentAction;
 
-public function table(Table $table): $table
+public function table(Table $table): Table
 {
     return $table
         ->actions([

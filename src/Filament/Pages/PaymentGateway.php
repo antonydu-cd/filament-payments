@@ -35,9 +35,9 @@ class PaymentGateway extends Page implements Tables\Contracts\HasTable
 
     protected ?string $status = null;
 
-    protected static ?string $navigationIcon = 'heroicon-o-cog';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-cog';
 
-    protected static string $view = "filament-payments::pages.payment-gateway";
+    protected string $view = "filament-payments::pages.payment-gateway";
 
     public array $data = [];
 
