@@ -1,5 +1,3 @@
-![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-payments/master/arts/3x1io-tomato-payments.jpg)
-
 # Filament Payment Manager
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-payments/version.svg)](https://packagist.org/packages/tomatophp/filament-payments)
@@ -7,17 +5,6 @@
 [![Downloads](https://poser.pugx.org/tomatophp/filament-payments/d/total.svg)](https://packagist.org/packages/tomatophp/filament-payments)
 
 Manage your payments inside FilamentPHP app with multi payment gateway integration
-
-## Screenshots
-
-![Payment Page](https://raw.githubusercontent.com/tomatophp/filament-payments/master/arts/payment-page.png)
-![Payments](https://raw.githubusercontent.com/tomatophp/filament-payments/master/arts/payments.png)
-![View Payment](https://raw.githubusercontent.com/tomatophp/filament-payments/master/arts/view.png)
-![Payment Gates](https://raw.githubusercontent.com/tomatophp/filament-payments/master/arts/payment-gates.png)
-![Edit Gate](https://raw.githubusercontent.com/tomatophp/filament-payments/master/arts/edit-gate.png)
-![Gate Option](https://raw.githubusercontent.com/tomatophp/filament-payments/master/arts/gate-option.png)
-![Payment Action](https://raw.githubusercontent.com/tomatophp/filament-payments/master/arts/payment-action.png)
-![Payment Action Confirm](https://raw.githubusercontent.com/tomatophp/filament-payments/master/arts/action-confirm.png)
 
 ## Features
 
